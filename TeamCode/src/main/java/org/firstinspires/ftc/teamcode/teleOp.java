@@ -29,6 +29,10 @@ public class teleOp extends LinearOpMode{
         lb.resetEncoder();
         rf.resetEncoder();
         rb.resetEncoder();
+        lf.setRunMode(Motor.RunMode.VelocityControl);
+        lb.setRunMode(Motor.RunMode.VelocityControl);
+        rf.setRunMode(Motor.RunMode.VelocityControl);
+        rb.setRunMode(Motor.RunMode.VelocityControl);
 
         GamepadEx pad1=new GamepadEx(gamepad1);
         MecanumDrive mDrive=new MecanumDrive(lf,rf,lb,rb);
