@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.drive.opmode;
+package org.firstinspires.ftc.teamcode.tuning.drive.opmode;
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.config.Config;
@@ -10,9 +10,9 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.util.RobotLog;
 
 import org.firstinspires.ftc.robotcore.internal.system.Misc;
-import org.firstinspires.ftc.teamcode.drive.SampleMecanumDrive;
-import org.firstinspires.ftc.teamcode.util.LoggingUtil;
-import org.firstinspires.ftc.teamcode.util.RegressionUtil;
+import org.firstinspires.ftc.teamcode.tuning.drive.SampleMecanumDrive;
+import org.firstinspires.ftc.teamcode.tuning.util.LoggingUtil;
+import org.firstinspires.ftc.teamcode.tuning.util.RegressionUtil;
 
 import java.util.ArrayList;
 import java.util.List;
