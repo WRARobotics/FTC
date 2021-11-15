@@ -46,14 +46,14 @@ public class teleOp extends LinearOpMode{
         MecanumDrive mDrive=new MecanumDrive(motors.get(0),motors.get(1),motors.get(2),motors.get(3));
         TrajectoryConfig config=new TrajectoryConfig(1,1);
 
-        Odometry
+
 
         Waypoint p1=new StartWaypoint();
 
 
-        Trajectory traj=new TrajectoryGenerator.generateTrajectory(
-
-        );
+//        Trajectory traj=new TrajectoryGenerator.generateTrajectory(
+//
+//        );
         waitForStart();
         while (opModeIsActive()) {
             mDrive.driveRobotCentric(pad1.getLeftX(),pad1.getLeftY(),pad1.getRightX());
